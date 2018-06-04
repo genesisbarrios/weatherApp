@@ -1,0 +1,68 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100vh;
+    background:#ededed;
+    color:white; 
+    margin:0;
+    padding:0;
+    font-family:"Montserrat", "Lucida Sans Unicode", sans-serif;
+}
+
+header{
+    background: #4EE2EC;
+    color:white;
+    text-align:left;
+}
+
+h1, h2, h3{font-weight:normal;}
+
+h1{
+    margin:0;
+    line-height:100px;
+    text-align:center;
+    text-shadow: 1px 1px 1px grey;
+}
+form{
+    width:50%; 
+    margin: 2%; 
+    margin-left:30%;
+}
+
+input{
+    outline:none;
+}
+
+input[type=text]{
+    width:50%;
+    border:none;
+    color:#808080;
+}
+
+input[type=submit]{
+    width:25%;
+    border:none;
+    background-color:white;
+    color:#808080;
+}
+
+input[type=submit]:active{
+    background:#BCF4F5;
+}
+
+section{
+    display: flex;
+    width:50%; 
+    margin: 0 auto;  
+    background:#B4EBCA;
+    box-shadow: 0.8px 0.8px 1px lightgrey;
+}
+
+div{
+    text-align:center;
+    width:50%;
+    height:100%;
+}
